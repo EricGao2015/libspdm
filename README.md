@@ -122,6 +122,7 @@
 | [RISCV_XPACK](https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack) |  -   |  -  |  -  |    -    | riscv-none-elf-gcc | riscv-none-elf-gcc |    -    |
 | [RISCV_NONE](https://archlinux.org/packages/extra/x86_64/riscv64-elf-gcc/) |  -   |  -  |  -  |    -    | riscv64-elf-gcc | riscv64-elf-gcc |    -    |
 | [LOONGARCH64_GNU](https://github.com/loongson/build-tools/) |  -   |  -  |  -  |    -    | - | - | loongarch64-unknown-linux-gnu-gcc |
+| [LOONGARCH64_GCC](https://pkgs.org/download/gcc-loongarch64-linux-gnu) |  -   |  -  |  -  |    -    | - | - | loongarch64-linux-gnu-gcc |
 
 8) Static Analysis
 

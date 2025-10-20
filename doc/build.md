@@ -143,12 +143,16 @@ a) [NIOS2 GNU](https://www.intel.com/content/www/us/en/docs/programmable/683689/
 #### Compiler for LOONGARCH64
 
 a) [LOONGARCH64_GNU](https://github.com/loongson/build-tools/)
-  - Download [Release 2025.08.08](https://github.com/loongson/build-tools/releases/download/2025.08.08/x86_64-cross-tools-loongarch64-binutils_2.45-gcc_15.1.0-glibc_2.42.tar.xz): (loongarch64-unknown-linux-gnu), and unzip it`.
+  - Download [Release 2025.08.08](https://github.com/loongson/build-tools/releases/download/2025.08.08/x86_64-cross-tools-loongarch64-binutils_2.45-gcc_15.1.0-glibc_2.42.tar.xz): (loongarch64-unknown-linux-gnu), and unzip it.
   - Add <tool_path>/bin to the $PATH environment. For example:
     ```
     echo 'export PATH=~/x86_64-cross-tools-loongarch64-binutils_2.45-gcc_15.1.0-glibc_2.42/bin:$PATH' | sudo tee -a ~/.bashrc
     source ~/.bashrc
     ```
+
+b) [LOONGARCH64_GCC](https://pkgs.org/download/gcc-loongarch64-linux-gnu) for LOONGARCH64 only
+  - Ubuntu, Debian:`sudo apt-get install gcc-loongarch64-linux-gnu`
+  - Fedora:`sudo dnf install gcc-loongarch64-linux-gnu`
 
 ## Build
 
